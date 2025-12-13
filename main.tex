@@ -1,0 +1,97 @@
+\documentclass[12pt,a4paper]{report}
+
+% ---------- PACKAGES ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{titlesec}
+\usepackage{tocloft}
+
+% ---------- MISE EN PAGE ----------
+\geometry{margin=2.5cm}
+\onehalfspacing
+
+\titleformat{\chapter}{\bfseries\Huge}{\thechapter}{20pt}{}
+\titleformat{\section}{\bfseries\Large}{\thesection}{12pt}{}
+
+% ---------- DOCUMENT ----------
+\begin{document}
+
+% ---------- PAGE DE GARDE ----------
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+
+    {\Large République Tunisienne\par}
+    \vspace{0.5cm}
+    {\Large Ministère de l’Enseignement Supérieur\par}
+    \vspace{1cm}
+
+    {\Huge\bfseries Rapport de Projet\par}
+    \vspace{1cm}
+
+    {\LARGE\bfseries Mental Well-being Web App\par}
+    \vspace{1cm}
+
+    {\Large Suivi du bien-être mental par journalisation et analyse de sentiment\par}
+    \vspace{2cm}
+
+    \begin{flushleft}
+    \textbf{Réalisé par:}\\
+    EL HAJ ALI Khaled \\
+    SANNEN Essia \\
+    SAIDANI Emna \\
+    NASRI Hadir \\
+    AMARA Nour \\
+    MAAMER Rania \\
+    \textbf{Encadrant:} JLASSI Nidhal \\
+    \textbf{Année universitaire:} 2025–2026
+    \end{flushleft}
+
+    \vfill
+\end{titlepage}
+
+\tableofcontents
+\listoffigures
+\newpage
+
+% ---------- CHAPITRES ----------
+\chapter{Introduction}
+\input{sections/introduction}
+
+\chapter{Vision et périmètre du projet}
+\input{sections/vision}
+
+\chapter{Analyse du diagramme de cas d’utilisation}
+\input{sections/usecase}
+
+\chapter{Architecture technique}
+\input{sections/architecture}
+
+\chapter{Product Backlog et User Stories}
+\input{sections/backlog}
+
+\chapter{Organisation des sprints}
+\input{sections/sprints}
+
+\chapter{Sécurité et confidentialité}
+\input{sections/security}
+
+\chapter{Expérience utilisateur}
+\input{sections/ux}
+
+\chapter{Analyse critique}
+\input{sections/discussion}
+
+\chapter{Perspectives d’évolution}
+\input{sections/perspectives}
+
+\chapter{Conclusion}
+\input{sections/conclusion}
+
+\end{document}

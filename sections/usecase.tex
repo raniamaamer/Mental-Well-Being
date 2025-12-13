@@ -1,0 +1,22 @@
+\section{Acteurs du système}
+
+Le système distingue trois acteurs principaux:
+\begin{itemize}
+    \item \textbf{Visiteur}: utilisateur non authentifié
+    \item \textbf{Utilisateur enregistré}: accès complet au journal
+    \item \textbf{Administrateur}: gestion du système
+\end{itemize}
+
+\section{Diagramme de cas d’utilisation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{images/usecase.png}
+    \caption{Diagramme de cas d’utilisation de l’application}
+\end{figure}
+
+\section{Analyse}
+
+Le diagramme met en évidence une séparation claire des responsabilités.
+Les fonctionnalités critiques (journal, analyse, visualisation) sont réservées
+aux utilisateurs authentifiés, garantissant la confidentialité des données.
