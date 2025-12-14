@@ -28,31 +28,33 @@
 
 \begin{center}
 
-% ---------- LOGOS ----------
-\begin{minipage}{0.45\textwidth}
+% ---------- LOGOS ET TEXTE CÔTE À CÔTE ----------
+\begin{minipage}[c]{0.2\textwidth}
 \centering
 \includegraphics[width=3cm]{images/utm.png}
 \end{minipage}
 \hfill
-\begin{minipage}{0.45\textwidth}
+\begin{minipage}[c]{0.55\textwidth}
+\centering
+{\Large \textbf{République Tunisienne}}\\[0.3cm]
+{\Large \textbf{Ministère de l'Enseignement Supérieur et de la Recherche Scientifique}}\\[0.3cm]
+{\Large \textbf{Université de Tunis El Manar}}\\[0.3cm]
+{\Large \textbf{Faculté des Sciences Économiques et de Gestion de Tunis}}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.2\textwidth}
 \centering
 \includegraphics[width=3cm]{images/fsegt.png}
 \end{minipage}
 
-\vspace{1cm}
-
-{\Large \textbf{République Tunisienne}}\\[0.3cm]
-{\Large \textbf{Ministère de l’Enseignement Supérieur et de la Recherche Scientifique}}\\[0.3cm]
-{\Large \textbf{Université de Tunis El Manar}}\\[0.3cm]
-{\Large \textbf{Faculté des Sciences Économiques et de Gestion de Tunis}}
-
 \vspace{1.5cm}
 
-{\Huge \textbf{PROJET DE FIN D’ANNÉE}}\\[0.7cm]
+{\Huge \textbf{PROJET DE FIN D'ANNÉE}}\\[0.7cm]
 
-{\Large \textbf{Master Professionnel en Ingénierie des Systèmes d’Information et Data Science}}\\[1cm]
+{\Large \textbf{Master Professionnel en Ingénierie des Systèmes d'Information et Data Science}}\\[1cm]
 
-{\LARGE \textbf{Mental Well-being Web App}}\\[0.5cm]
+\fbox{\parbox{1\textwidth}{\centering\LARGE \textbf{Mental Well-being Web App}}}\\[0.5cm]
+
 
 \end{center}
 
@@ -95,7 +97,7 @@ JLASSI Nidhal
 \chapter{Vision et périmètre du projet}
 \input{sections/vision}
 
-\chapter{Analyse du diagramme de cas d’utilisation}
+\chapter{Analyse du diagramme de cas d'utilisation}
 \input{sections/usecase}
 
 \chapter{Architecture technique}
