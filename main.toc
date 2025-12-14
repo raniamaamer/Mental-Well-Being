@@ -11,19 +11,19 @@
 \contentsline {chapter}{\numberline {4}Architecture technique}{8}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Architecture générale}{8}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Frontend}{8}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Backend}{8}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Backend}{9}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Visualisation}{9}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Base de données}{9}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Product Backlog et User Stories}{10}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Présentation du Product Backlog}{10}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Gestion des comptes}{10}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Fonctionnalités du journal}{10}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Analyse intelligente}{11}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Organisation des sprints}{12}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Sprints}{12}{section.6.1}%
-\contentsline {chapter}{\numberline {7}Sécurité et confidentialité}{13}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Expérience utilisateur}{14}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Analyse critique}{15}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Forces}{15}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Limites}{15}{section.9.2}%
-\contentsline {chapter}{\numberline {10}Conclusion}{16}{chapter.10}%
+\contentsline {section}{\numberline {4.5}Base de données}{10}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Product Backlog et User Stories}{11}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Présentation du Product Backlog}{11}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Gestion des comptes}{11}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Fonctionnalités du journal}{11}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Analyse intelligente}{12}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Organisation des sprints}{13}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Sprints}{13}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Sécurité et confidentialité}{14}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Expérience utilisateur}{15}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Analyse critique}{16}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Forces}{16}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Limites}{16}{section.9.2}%
+\contentsline {chapter}{\numberline {10}Conclusion}{17}{chapter.10}%

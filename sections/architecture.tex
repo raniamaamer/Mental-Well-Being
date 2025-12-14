@@ -1,30 +1,50 @@
-\section{Architecture générale}
-Le projet adopte une architecture client–serveur avec séparation claire entre
-le frontend et le backend.
+\section{Architecture générale} 
+Le projet repose sur une architecture client–serveur séparant clairement le frontend et le backend. Cette organisation améliore la maintenabilité, l’évolutivité et la clarté du système. Le frontend gère l’interface utilisateur, tandis que le backend assure le traitement des données, la sécurité, la persistance et 
+l’intelligence artificielle, avec une communication basée sur des API REST au format JSON.
 
 \section{Frontend}
 \begin{center}
     \includegraphics[height=2cm]{images/nextjs.png} \\
     \textbf{Next.js 14}
 \end{center}
-Le frontend est développé avec \textbf{Next.js 14}, permettant :
+
+Le frontend est développé avec \textbf{Next.js 14}, un framework basé sur React offrant de hautes performances grâce à la combinaison du rendu côté serveur et côté client. Il permet une structuration claire des composants, 
+une navigation fluide entre les différentes pages et une communication efficace avec les API du backend Flask, 
+améliorant ainsi l’expérience utilisateur et les temps de chargement.
+
+\textbf{Next.js} permet notamment:
 \begin{itemize}
     \item Une interface réactive
     \item Un rendu performant
     \item Une navigation fluide
 \end{itemize}
+L’utilisation de ce framework facilite également l’intégration de bibliothèques
+tierces telles que Chart.js et contribue à une expérience utilisateur moderne,
+responsive et cohérente sur différents types d’appareils.
+
+
 
 \section{Backend}
 \begin{center}
     \includegraphics[height=2cm]{images/flask.png} \\
     \textbf{Flask}
 \end{center}
-Le backend repose sur \textbf{Flask}, exposant des API REST sécurisées pour :
+
+Le backend est développé avec \textbf{Flask}, un micro-framework Python léger et flexible, adapté à la création d’API REST. Il centralise la logique métier du système, notamment l’authentification, 
+la gestion des sessions, le stockage des données et l’analyse de sentiment, 
+tout en assurant une communication sécurisée et structurée avec le frontend.
+
+Le backend \textbf{Flask} prend en charge:
 \begin{itemize}
     \item La gestion des utilisateurs
     \item La gestion des entrées de journal
     \item L’analyse de sentiment
 \end{itemize}
+
+Ce choix technologique permet également une intégration naturelle avec les
+bibliothèques de traitement du langage naturel (TextBlob, VADER, spaCy),
+renforçant ainsi la dimension intelligente de l’application.
+
 
 \section{Visualisation}
 
@@ -35,7 +55,7 @@ Le backend repose sur \textbf{Flask}, exposant des API REST sécurisées pour :
 
 La visualisation des données dans le projet est assurée par \textbf{Chart.js}, une bibliothèque JavaScript qui permet de créer des graphiques interactifs et dynamiques.  
 
-Grâce à Chart.js, le système peut afficher :
+Grâce à \textbf{Chart.js}, le système peut afficher:
 \begin{itemize}
     \item Des graphiques d’évolution des émotions au fil du temps
     \item Des tableaux de bord synthétiques
@@ -48,9 +68,23 @@ Cette visualisation permet à l’utilisateur de mieux comprendre ses tendances 
     \includegraphics[height=2cm]{images/sqlite.png} \\
     \textbf{SQLite}
 \end{center}
-La base de données SQLite stocke :
+
+La base de données utilisée est \textbf{SQLite}, une base de données relationnelle
+légère intégrée directement à l’application. Ce choix est particulièrement
+adapté à un prototype ou à un MVP, car il ne nécessite pas de serveur de base de
+données dédié et offre une grande simplicité de déploiement.
+
+\textbf{SQLite} permet de stocker de manière structurée et sécurisée les données
+essentielles de l’application tout en garantissant de bonnes performances pour
+un volume modéré de données.
+
+La base de données \textbf{SQLite} stocke:
 \begin{itemize}
     \item Les utilisateurs
     \item Les entrées de journal
     \item Les scores de sentiment
 \end{itemize}
+
+Ce choix constitue une base solide pour le projet, avec la possibilité
+d’une migration future vers une solution plus robuste (comme PostgreSQL) si le
+volume d’utilisateurs venait à augmenter.
