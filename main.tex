@@ -8,59 +8,87 @@
 \usepackage{graphicx}
 \usepackage{geometry}
 \usepackage{hyperref}
-\usepackage{float}
-\usepackage{titlesec}
-\usepackage{tocloft}
+\usepackage{float} % pour [H]
+\usepackage{tikz}  % <-- pour diagrammes UML
+\usetikzlibrary{positioning, shapes, arrows} % <-- pour diagrammes UML
+\usepackage{amsmath}
+\usepackage{amssymb}
 
 % ---------- MISE EN PAGE ----------
 \geometry{margin=2.5cm}
 \onehalfspacing
 
-\titleformat{\chapter}{\bfseries\Huge}{\thechapter}{20pt}{}
-\titleformat{\section}{\bfseries\Large}{\thesection}{12pt}{}
-
 % ---------- DOCUMENT ----------
 \begin{document}
 
-% ---------- PAGE DE GARDE ----------
-\begin{titlepage}
-    \centering
-    \vspace*{2cm}
+% ==================================================
+%                  PAGE DE GARDE
+% ==================================================
+\thispagestyle{empty}
 
-    {\Large République Tunisienne\par}
-    \vspace{0.5cm}
-    {\Large Ministère de l’Enseignement Supérieur\par}
-    \vspace{1cm}
+\begin{center}
 
-    {\Huge\bfseries Rapport de Projet\par}
-    \vspace{1cm}
+% ---------- LOGOS ----------
+\begin{minipage}{0.45\textwidth}
+\centering
+\includegraphics[width=3cm]{images/utm.png}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\centering
+\includegraphics[width=3cm]{images/fsegt.png}
+\end{minipage}
 
-    {\LARGE\bfseries Mental Well-being Web App\par}
-    \vspace{1cm}
+\vspace{1cm}
 
-    {\Large Suivi du bien-être mental par journalisation et analyse de sentiment\par}
-    \vspace{2cm}
+{\Large \textbf{République Tunisienne}}\\[0.3cm]
+{\Large \textbf{Ministère de l’Enseignement Supérieur et de la Recherche Scientifique}}\\[0.3cm]
+{\Large \textbf{Université de Tunis El Manar}}\\[0.3cm]
+{\Large \textbf{Faculté des Sciences Économiques et de Gestion de Tunis}}
 
-    \begin{flushleft}
-    \textbf{Réalisé par:}\\
-    EL HAJ ALI Khaled \\
-    SANNEN Essia \\
-    SAIDANI Emna \\
-    NASRI Hadir \\
-    AMARA Nour \\
-    MAAMER Rania \\
-    \textbf{Encadrant:} JLASSI Nidhal \\
-    \textbf{Année universitaire:} 2025–2026
-    \end{flushleft}
+\vspace{1.5cm}
 
-    \vfill
-\end{titlepage}
+{\Huge \textbf{PROJET DE FIN D’ANNÉE}}\\[0.7cm]
 
-\tableofcontents
-\listoffigures
+{\Large \textbf{Master Professionnel en Ingénierie des Systèmes d’Information et Data Science}}\\[1cm]
+
+{\LARGE \textbf{Mental Well-being Web App}}\\[0.5cm]
+
+\end{center}
+
+\vspace{0.5cm}
+
+% ---------- AUTEURS & ENCADRANT (CENTRÉ) ----------
+\begin{center}
+\textbf{Élaboré par:}\\[0.3cm]
+EL HAJ ALI Khaled \\
+SANNEN Essia \\
+SAIDANI Emna \\
+NASRI Hadir \\
+AMARA Nour \\
+MAAMER Rania \\[0.8cm]
+
+\textbf{Sous la direction de:}\\[0.3cm]
+JLASSI Nidhal
+\end{center}
+
+\vfill
+
+\begin{center}
+{\Large \textbf{Année universitaire: 2025--2026}}
+\end{center}
+
 \newpage
 
-% ---------- CHAPITRES ----------
+% ==================================================
+%              TABLE DES MATIÈRES
+% ==================================================
+\tableofcontents
+\newpage
+
+% ==================================================
+%                   CHAPITRES
+% ==================================================
 \chapter{Introduction}
 \input{sections/introduction}
 
@@ -87,9 +115,6 @@
 
 \chapter{Analyse critique}
 \input{sections/discussion}
-
-\chapter{Perspectives d’évolution}
-\input{sections/perspectives}
 
 \chapter{Conclusion}
 \input{sections/conclusion}

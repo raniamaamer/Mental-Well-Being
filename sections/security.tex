@@ -1,9 +1,19 @@
-La sécurité constitue un axe fondamental du projet.
-Les mots de passe sont chiffrés à l’aide de l’algorithme bcrypt
-avant leur stockage.
+La sécurité constitue un axe fondamental du projet, garantissant la protection des données personnelles et la confiance des utilisateurs.  
 
-Les sessions utilisateurs sont gérées via Flask-Login,
-assurant un accès restreint aux données personnelles.
+\textbf{Chiffrement des mots de passe :} Tous les mots de passe sont sécurisés avec l’algorithme \textbf{bcrypt} avant stockage. Bcrypt offre une grande résistance aux attaques par force brute grâce au salage et à un temps de calcul ajustable, garantissant que les mots de passe restent illisibles même en cas de fuite de la base de données.  
 
-Une évolution future prévoit l’intégration d’un chiffrement AES
-pour renforcer davantage la confidentialité.
+\textbf{Gestion des sessions :} Les sessions utilisateurs sont gérées via \textbf{Flask-Login}, assurant une authentification fiable et la limitation de l’accès aux données sensibles. Chaque session est unique et expire automatiquement après une période d’inactivité pour prévenir tout accès non autorisé.  
+
+\textbf{Chiffrement des données sensibles :} Une évolution future prévoit l’intégration d’un chiffrement \textbf{AES (Advanced Encryption Standard)} pour protéger les informations critiques et renforcer la confidentialité des données stockées.  
+
+\textbf{Bonnes pratiques :} Des mesures complémentaires sont également mises en place, telles que :
+\begin{itemize}
+    \item Validation des entrées utilisateurs pour éviter les injections SQL et attaques XSS.
+    \item Protection des formulaires contre les attaques CSRF.
+    \item Limitation des tentatives de connexion pour prévenir les intrusions.
+    \item Journalisation des accès et actions critiques pour détecter tout comportement suspect.
+\end{itemize}
+
+\textbf{Bénéfices pour l’utilisateur :} Cette approche multi-niveaux permet aux utilisateurs de saisir leurs informations personnelles et émotionnelles en toute confiance, avec une expérience à la fois simple, fluide et sécurisée.  
+
+\textbf{Résumé :} En combinant chiffrement des mots de passe, gestion sécurisée des sessions et protections avancées, le projet place la sécurité au cœur de sa conception, garantissant ainsi une utilisation fiable et protégée.

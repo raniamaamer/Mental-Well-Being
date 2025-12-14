@@ -1,10 +1,12 @@
 \section{Architecture générale}
-
 Le projet adopte une architecture client–serveur avec séparation claire entre
 le frontend et le backend.
 
 \section{Frontend}
-
+\begin{center}
+    \includegraphics[height=2cm]{images/nextjs.png} \\
+    \textbf{Next.js 14}
+\end{center}
 Le frontend est développé avec \textbf{Next.js 14}, permettant :
 \begin{itemize}
     \item Une interface réactive
@@ -13,7 +15,10 @@ Le frontend est développé avec \textbf{Next.js 14}, permettant :
 \end{itemize}
 
 \section{Backend}
-
+\begin{center}
+    \includegraphics[height=2cm]{images/flask.png} \\
+    \textbf{Flask}
+\end{center}
 Le backend repose sur \textbf{Flask}, exposant des API REST sécurisées pour :
 \begin{itemize}
     \item La gestion des utilisateurs
@@ -21,8 +26,28 @@ Le backend repose sur \textbf{Flask}, exposant des API REST sécurisées pour :
     \item L’analyse de sentiment
 \end{itemize}
 
-\section{Base de données}
+\section{Visualisation}
 
+\begin{center}
+    \includegraphics[height=3cm]{images/chartjs.png} \\
+    \textbf{Chart.js}
+\end{center}
+
+La visualisation des données dans le projet est assurée par \textbf{Chart.js}, une bibliothèque JavaScript qui permet de créer des graphiques interactifs et dynamiques.  
+
+Grâce à Chart.js, le système peut afficher :
+\begin{itemize}
+    \item Des graphiques d’évolution des émotions au fil du temps
+    \item Des tableaux de bord synthétiques
+    \item Des nuages de mots basés sur les entrées du journal
+\end{itemize}
+Cette visualisation permet à l’utilisateur de mieux comprendre ses tendances émotionnelles et d’analyser ses données de manière intuitive et interactive.
+
+\section{Base de données}
+\begin{center}
+    \includegraphics[height=2cm]{images/sqlite.png} \\
+    \textbf{SQLite}
+\end{center}
 La base de données SQLite stocke :
 \begin{itemize}
     \item Les utilisateurs

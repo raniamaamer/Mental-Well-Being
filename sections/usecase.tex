@@ -1,11 +1,37 @@
 \section{Acteurs du système}
 
-Le système distingue trois acteurs principaux:
-\begin{itemize}
-    \item \textbf{Visiteur}: utilisateur non authentifié
-    \item \textbf{Utilisateur enregistré}: accès complet au journal
-    \item \textbf{Administrateur}: gestion du système
-\end{itemize}
+Le diagramme ci-dessous illustre les **acteurs principaux** de l'application et leurs interactions avec le système.  
+Chaque acteur représente un type d’utilisateur avec des droits et des responsabilités spécifiques.  
+
+\begin{center}
+\begin{tikzpicture}[actor/.style={ellipse, draw, minimum width=3.5cm, minimum height=1cm, align=center}, 
+                    system/.style={rectangle, draw, minimum width=6cm, minimum height=1cm, align=center},
+                    >=stealth]
+
+% Actors
+\node[actor] (visitor) {Visiteur \\ (non authentifié)};
+\node[actor, below=0.8cm of visitor] (user) {Utilisateur enregistré \\ (accès complet au journal)};
+\node[actor, below=0.8cm of user] (admin) {Administrateur \\ (gestion du système)};
+
+% System box
+\node[system, right=4cm of user] (systembox) {Système \\ Mental Well-being Web App};
+
+% Connections
+\draw[->] (visitor.east) -- ++(1.5,0) |- (systembox.west);
+\draw[->] (user.east) -- ++(1.5,0) -- (systembox.west);
+\draw[->] (admin.east) -- ++(1.5,0) |- (systembox.west);
+
+\end{tikzpicture}
+\end{center}
+
+\noindent
+Ce diagramme UML de cas d'utilisation montre les différents types d’utilisateurs (Visiteur, Utilisateur enregistré, Administrateur) et leurs interactions avec le système. 
+\newline 
+- Le \textit{Visiteur} peut consulter des informations publiques sans être connecté.  
+\newline
+- L’\textit{Utilisateur enregistré} a accès complet à son journal et aux fonctionnalités principales. 
+\newline
+- L’\textit{Administrateur} gère l’ensemble du système et supervise les utilisateurs et leurs données.
 
 \section{Diagramme de cas d’utilisation}
 
