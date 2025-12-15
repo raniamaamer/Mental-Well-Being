@@ -20,11 +20,12 @@
 \contentsline {section}{\numberline {5.2}Gestion des comptes}{12}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Fonctionnalités du journal}{12}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Analyse intelligente}{13}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Organisation des sprints}{14}{chapter.6}%
+\contentsline {section}{\numberline {5.5}Product Backlog}{13}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Plannifaction}{14}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Sprints}{14}{section.6.1}%
 \contentsline {chapter}{\numberline {7}Sécurité et confidentialité}{15}{chapter.7}%
 \contentsline {chapter}{\numberline {8}Expérience utilisateur}{16}{chapter.8}%
 \contentsline {chapter}{\numberline {9}Analyse critique}{17}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Forces}{17}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Limites}{17}{section.9.2}%
+\contentsline {section}{\numberline {9.1}Points forts}{17}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Perspectives}{17}{section.9.2}%
 \contentsline {chapter}{\numberline {10}Conclusion}{18}{chapter.10}%
