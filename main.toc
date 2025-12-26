@@ -1,5 +1,5 @@
 \babel@toc {french}{}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{4}{chapter.1}%
+\contentsline {chapter}{\numberline {1}Introduction Générale}{4}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Contexte}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Vision du projet}{5}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Objectifs}{5}{section.2.2}%
@@ -21,11 +21,12 @@
 \contentsline {section}{\numberline {5.3}Fonctionnalités du journal}{12}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Analyse intelligente}{13}{section.5.4}%
 \contentsline {section}{\numberline {5.5}Product Backlog}{13}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Plannifaction}{14}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Plannifaction et Interfaces développées}{14}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Sprints}{14}{section.6.1}%
-\contentsline {chapter}{\numberline {7}Sécurité et confidentialité}{15}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Expérience utilisateur}{16}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Analyse critique}{17}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Points forts}{17}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Perspectives}{17}{section.9.2}%
-\contentsline {chapter}{\numberline {10}Conclusion}{18}{chapter.10}%
+\contentsline {section}{\numberline {6.2}Les interfaces}{15}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Sécurité et confidentialité}{19}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Expérience utilisateur}{20}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Analyse critique}{21}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Points forts}{21}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Perspectives}{21}{section.9.2}%
+\contentsline {chapter}{\numberline {10}Conclusion Générale}{22}{chapter.10}%

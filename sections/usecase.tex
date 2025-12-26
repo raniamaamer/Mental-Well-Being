@@ -1,8 +1,9 @@
 \section{Acteurs du système}
-Le diagramme ci-dessous illustre les acteurs principaux de l'application et leurs interactions avec le système.  
-Chaque acteur représente un type d’utilisateur avec des droits et des responsabilités spécifiques.  
+Le diagramme présenté à la figure \ref{fig:acteurs} illustre les acteurs principaux de l'application et leurs interactions avec le système.  
+Chaque acteur représente un type d’utilisateur avec des droits et des responsabilités spécifiques.
 
-\begin{center}
+\begin{figure}[H]
+\centering
 \begin{tikzpicture}[actor/.style={ellipse, draw, minimum width=1.8cm, minimum height=0.8cm, align=center, font=\small}, 
                     system/.style={rectangle, draw, minimum width=3.5cm, minimum height=0.8cm, align=center, font=\small},
                     >=stealth]
@@ -21,11 +22,10 @@ Chaque acteur représente un type d’utilisateur avec des droits et des respons
 \draw[->] (admin.east) -- ++(1.2,0) |- (systembox.west);
 
 \end{tikzpicture}
-
-\begin{figure}[H]
 \caption{Diagramme des acteurs du système}
+\label{fig:acteurs}
 \end{figure}
-\end{center}
+
 
 \noindent
 Ce diagramme de cas d'utilisation montre les différents types d'utilisateurs (Visiteur, Utilisateur enregistré, Administrateur) et leurs interactions avec le système. 
