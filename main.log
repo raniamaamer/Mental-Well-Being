@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.13)  26 DEC 2025 21:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.13)  27 DEC 2025 00:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1100,20 +1100,13 @@ Chapitre 10.
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-06>
  ***********
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D697BD6530DAFFF19519993842A5270B;4651
-(rerunfilecheck)             After:  57986A46E1D391BBBECC7E2F95BA6C68;4796.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 57986A46E1D391BBBECC7E2F95BA6C68;4796.
  ) 
 Here is how much of TeX's memory you used:
  25577 strings out of 467871
  501294 string characters out of 5418375
- 913970 words of memory out of 5000000
+ 913969 words of memory out of 5000000
  53937 multiletter control sequences out of 15000+600000
  640675 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1127,7 +1120,7 @@ pen/ec/dpi600\ecrm1200.pk> <C:\Users\rania\AppData\Local\MiKTeX\fonts/pk/ljfour
 ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\rania\AppData\Local\MiKTeX\fon
 ts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\rania\AppData\Local\MiKT
 eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>
-Output written on main.pdf (22 pages, 924615 bytes).
+Output written on main.pdf (22 pages, 924790 bytes).
 PDF statistics:
  693 PDF objects out of 1000 (max. 8388607)
  66 named destinations out of 1000 (max. 500000)
